@@ -1,3 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"failed","Mon Sep 19 16:04:53 MSK 2022","Mon Sep 19 16:04:54 MSK 2022","667","Example API-Testing suite","","","","","test red",""
-"passed","Mon Sep 19 16:04:52 MSK 2022","Mon Sep 19 16:04:53 MSK 2022","799","Example API-Testing suite","","","","","test green",""
