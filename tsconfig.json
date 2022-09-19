@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "es2019",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "lib": [
+      "es2019"
+    ],
+    "types": [
+      "node",
+      "mocha",
+      "chai"
+    ],
+    "removeComments": true,
+    "noImplicitAny": false,
+    "strict": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "outDir": "./dist"
+  },
+  "include": [
+    "./tests/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

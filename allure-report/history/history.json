@@ -1,0 +1,41 @@
+{
+  "802f1ff8bece102c494c2699e0eb7644" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d0b689005595a4c5",
+      "status" : "failed",
+      "statusDetails" : "Name was not as expected, full response was: {\"currentCountry\":{\"country\":{\"id\":\"7\",\"code\":\"kw\",\"name\":\"الكويت\",\"englishName\":\"Kuwait\",\"locale\":{\"name\":\"العربية\",\"value\":\"ar-KW\",\"__typename\":\"Locale\"},\"__typename\":\"Country\"},\"currentLocale\":{\"name\":\"العربية\",\"value\":\"ar-KW\",\"__typename\":\"CurrentLocale\"},\"__typename\":\"CurrentCountry\"}}: expected 'Kuwait' to equal 'Not Kuwait'",
+      "time" : {
+        "start" : 1663592693791,
+        "stop" : 1663592694458,
+        "duration" : 667
+      }
+    } ]
+  },
+  "e68fd2ae4065e859cc36f0987b7b7f92" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e4ef2de6348f03d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663592692990,
+        "stop" : 1663592693789,
+        "duration" : 799
+      }
+    } ]
+  }
+}

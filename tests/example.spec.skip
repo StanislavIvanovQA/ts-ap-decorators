@@ -1,0 +1,16 @@
+import {expect} from 'chai';
+import {Client} from "../client/Client";
+import {TestQuery} from "../graphql/queries/queries"
+
+describe('Example API-Testing suite', async () => {
+
+    it('test green', async () => {
+        const response = await Client.v1(TestQuery);
+        expect(response.data.currentCountry.country.englishName).to.eq('Kuwait');
+    });
+
+    it('test red', async () => {
+        const response = await Client.v1(TestQuery);
+        expect(response.data.currentCountry.country.englishName, `Name was not as expected, full response was: ${JSON.stringify(response.data)}`).to.eq('Not Kuwait');
+    });
+});

@@ -1,0 +1,67 @@
+{
+  "uid" : "e4ef2de6348f03d4",
+  "name" : "test green",
+  "fullName" : "test green",
+  "historyId" : "e68fd2ae4065e859cc36f0987b7b7f92",
+  "time" : {
+    "start" : 1663592692990,
+    "stop" : 1663592693789,
+    "duration" : 799
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Sending request to url: https://www.uulastaging.com/backend/graphql\n         With query {\"operationName\":\"GetCurrentCountry\",\"variables\":{},\"query\":\"query GetCurrentCountry {\\n  currentCountry {\\n    ...CurrentCountryFragment\\n    __typename\\n  }\\n}\\n\\nfragment CurrentCountryFragment on CurrentCountry {\\n  country {\\n    id\\n    code\\n    name\\n    englishName\\n    locale {\\n      name\\n      value\\n      __typename\\n    }\\n    __typename\\n  }\\n  currentLocale {\\n    name\\n    value\\n    __typename\\n  }\\n  __typename\\n}\\n\"}",
+      "time" : {
+        "start" : 1663592692991,
+        "stop" : 1663592693788,
+        "duration" : 797
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "dist.tests"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Example API-Testing suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e4ef2de6348f03d4.json",
+  "parameterValues" : [ ]
+}
